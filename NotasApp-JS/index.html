@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Documento tareas</title>
+</head>
+
+<body>
+    <h1>Aplicacion de Notas Personales</h1>
+    <h2>Agregar una nueva nota:</h2>
+    <div>
+        <form id="formTask">
+            <select name="tipo" id="idtipo">
+                <option value="Seleccione:">Seleccione:</option>
+                <option value="Personal">Personal</option>
+                <option value="Trabajo">Trabajo</option>
+                <option value="Estudio">Estudio</option>
+                <option value="Entretenimiento">Entretenimiento</option>
+                <option value="Deporte">Deporte</option>
+            </select>
+            <br>
+            <input type="text" name="nombreTarea" id="title" placeholder="Add nota">
+            <br>
+            <textarea name="caja" id="cajaTarea" cols="30" rows="10" placeholder="Ingresar Detalle"></textarea>
+            <br>
+            <input type="submit" value="Agregar" id="idGuardar">
+            <br>
+        </form>
+        <div class="recuadro" id="tasks">
+        </div>
+        <!-- 
+        <iframe id="inlineFrameExample" title="Inline Frame Example" width="300" height="200"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+        </iframe>
+        -->
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
