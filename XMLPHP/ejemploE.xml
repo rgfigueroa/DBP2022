@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dbp>
+    <estudiante ides="1"> 
+        <cedula genero="masculino" matriculado="si" id="6843">1104462856</cedula>
+        <nombre>Juan</nombre>
+        <apellido>Perez</apellido>
+        <celular>0959020466</celular> 
+        <pagos lugar="oficina" id="1">
+             <cantidad>10</cantidad>
+             <fecha>25/05/2022</fecha>
+             <tipo>efectivo</tipo>
+             <hora>10:42z</hora>
+        </pagos>
+    </estudiante> 
+    <estudiante ides="2"> 
+        <cedula genero="masculino" matriculado="si" id="6843">1104462856</cedula>
+        <nombre>Maria</nombre>
+        <apellido>Cueva</apellido>
+        <celular>0959020466</celular> 
+        <pagos lugar="online" id="1">
+             <cantidad>10</cantidad>
+             <fecha>23/05/2022</fecha>
+             <tipo>transferenciaB</tipo>
+             <hora>19:10</hora>
+        </pagos> 
+    </estudiante> 
+    <estudiante ides="3"> 
+        <cedula genero="masculino" matriculado="no" id="6843">07047832822</cedula>
+        <nombre>Juan</nombre>
+        <apellido>Perez</apellido>
+        <celular>0959020466</celular> 
+        <pagos lugar="online" id="1">
+             <cantidad>10</cantidad>
+             <fecha>25/05/2022</fecha>
+             <tipo>transferenciaB</tipo>
+             <hora>14:53</hora>
+        </pagos> 
+    </estudiante>   
+</dbp>
